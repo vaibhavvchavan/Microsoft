@@ -1,0 +1,27 @@
+[
+	{
+		"mId": "guid-1",
+		"unread": true,
+		"subject" : "Training Program",
+		"content" : "About Microsoft Virtual Academy<br/>Microsoft Virtual Academy provides free online training by world-class experts to help you build your technical skills and advance your career. Make it your destination of choice to get started on the latest Microsoft technologies and join this vibrant community."
+	},
+	{
+		"mId": "guid-2",
+		"unread": false,
+		"subject" : "Empower your future",
+		"content" : "We foster our pipeline of future leaders with 47 employee networks and 7 global employee resource groups, servicing an active community of thousands across Microsoft"
+	},
+
+	{
+		"mId": "guid-3",
+		"unread": true,
+		"subject" : "Learn Azure",
+		"content" : "Learn Azure, complte certification and became Azure certified."
+	},
+	{
+		"mId": "guid-4",
+		"unread": false,
+		"subject" : "Microsoft Most Valuable Professional",
+		"content" : "A Microsoft Most Valuable Professional (MVP) is an award for individuals who have exhibited exceptional technical expertise and a talent for sharing knowledge within their technical community."	}
+
+]

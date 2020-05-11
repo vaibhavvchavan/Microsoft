@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.email-unread div.text-overflow {
+  color: #007bff;
+}
+.email-list {
+  cursor: pointer;
+  border-top: 1px solid #dee2e6;
+  outline: none;
+  border-left: 3px solid transparent;
+}
+.email-list input {
+  display: none;
+}
+.email-list:not(.email-active):hover {
+  background-color: #d2e3f5;
+  border-left: 3px solid #8ca7c3;
+}
+.email-list.email-flag:not(.email-active):hover {
+  background-color: #FFFDD9;
+  border-left: 3px solid #8ca7c3;
+}
+.email-list:hover input {
+  display: inline-block;
+}
+.email-flag {
+  background-color: #FFFDD9;
+  border-left: 3px solid transparent;
+}
+.email-unread {
+  border-left: 3px solid #0078D7;
+}
+.email-active {
+  background-color: #DCECF9;
+}
+.email-border-left {
+  border-left: 1px solid #dee2e6;
+}
+.email-border-right {
+  border-right: 1px solid #dee2e6;
+}
+.email-border-top {
+  border-top: 1px solid #dee2e6;
+}
+.email-border-bottom {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.headerform{
+
+  margin-left: 250px;
+}
